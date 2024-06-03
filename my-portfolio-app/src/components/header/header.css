@@ -1,0 +1,41 @@
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajout de cette ligne */
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 70px; /* Augmentation de la taille du logo */
+    height: 70px; /* Augmentation de la taille du logo */
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Alignement des menus vers la droite */
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #0000ff;
+    text-shadow: 0 0 2px #0000ff;
+  }

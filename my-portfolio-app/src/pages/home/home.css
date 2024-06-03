@@ -1,0 +1,21 @@
+/* home.css */
+.container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    color: #082567;
+    text-shadow: 2px 2px 4px white;
+  }
+  
+  .container p {
+    color: black;
+    border: 1px dashed white;
+    font-size: large;
+    padding: 10px;
+  }
