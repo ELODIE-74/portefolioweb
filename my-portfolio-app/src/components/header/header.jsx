@@ -1,8 +1,14 @@
-import React from "react";
+
+import React, { useRef } from 'react'; // Importez useRef ici
 import { Link } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
+  const presentationSectionRef = useRef(null);
+
+  const scrollToPresentationSection = () => {
+    presentationSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <header className="header">
       <div className="logo">
@@ -14,7 +20,9 @@ const Header = () => {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-            <Link to="/presentation">Présentation</Link>
+          <Link to="#" onClick={scrollToPresentationSection}>
+          Présentation
+        </Link>
           </li>
           <li>
             <Link to="/projets">Projets</Link>
