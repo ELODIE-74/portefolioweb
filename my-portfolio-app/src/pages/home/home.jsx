@@ -1,9 +1,10 @@
-// home.jsx
-import React, { useRef } from 'react'; // Importez useRef ici
+import React, { useRef } from 'react';
 import './home.css';
+import ProjectSlider from '../../components/slider/slider';
 
 function Home() {
   const presentationSectionRef = useRef(null);
+
   return (
     <div>
       <div className="title-container">
@@ -26,7 +27,7 @@ function Home() {
           </p>
         </div>
         <div className="image-container">
-          <img src="../../imagehome.png" alt="Mon image" />
+          <ProjectSlider />
         </div>
       </div>
     </div>
