@@ -36,15 +36,17 @@
 }
 
 h1 {
-  color: black;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #00c9b6;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
-  color: #082567;
-  text-shadow: 2px 2px 4px white;
+  color: white;
+  text-shadow: 2px 2px 2px white;
+font-weight: bold;
 }
 
 h3 {
+  color: #00c9b6;
   margin-bottom: 20px;
 }
