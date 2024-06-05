@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './home.css';
 import ProjectSlider from '../../components/slider/slider';
 import ProjectList from '../../components/card/card'; // Importez le composant ProjectList
+import TechSlider from '../../components/slidericone/slidericone'; // Importez le composant TechSlider
 function Home() {
   const presentationSectionRef = useRef(null);
 
@@ -34,6 +35,9 @@ function Home() {
         <div className="project-list-container">
           <ProjectList /> {/* Ajoutez le composant ProjectList ici */}
         </div>
+        <div className="tech-slider-container">
+        <TechSlider /> {/* Ajoutez le composant TechSlider ici */}
+      </div>
       </div>
   );
 }
