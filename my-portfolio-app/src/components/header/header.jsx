@@ -20,9 +20,8 @@ const Header = () => {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-          <Link to="#" onClick={scrollToPresentationSection}>
-          Présentation
-        </Link>
+          <Link to="#" >Présentation</Link>
+     
           </li>
           <li>
             <Link to="/projets">Projets</Link>

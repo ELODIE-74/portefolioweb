@@ -21,7 +21,7 @@ const ContactForm = () => {
   return (
     <section id="contact">
       <h2>Contact</h2>
-      <p>Vous voulez me contacter ? Alors faites-moi signe !</p>
+      <p className='titlecontact'>Vous voulez me contacter ? Alors faites-moi signe !</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Nom</label>
         <input
