@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import "./slidericone.css";
 
 const TechSlider = () => {
@@ -15,7 +14,6 @@ const TechSlider = () => {
     { icon: <i className="fa-brands fa-redux-square"></i>, name: 'Redux Toolkit' },
     { icon: <i className="fa-brands fa-ai"></i>, name: 'AI' },
     { icon: <i className="fa-brands fa-code"></i>, name: 'VSCode' },
-    { icon: <i className="fa-brands fa-code-branch"></i>, name: 'Git' },
     { icon: <i className="fa-brands fa-github"></i>, name: 'GitHub' },
   ];
 
@@ -33,6 +31,10 @@ const TechSlider = () => {
         <div
           key={index}
           className={`tech-item ${index === currentIndex ? 'active' : ''}`}
+          style={{
+            transform: `translateX(-${currentIndex * 100}%)`,
+            transition: 'transform 0.5s ease-in-out',
+          }}
         >
           {tech.icon}
           <span>{tech.name}</span>
