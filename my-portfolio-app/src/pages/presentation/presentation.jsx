@@ -7,7 +7,8 @@ function Presentation() {
         <div>
             <h1>Parcours</h1>
             <p className="TextePresentationPage">
-          Oups!La page que vous demandez n'existe pas.
+          Je me présente, je m'appelle Elodie. Je voudrais bien réussir ma reconversion professionnel dans les métiers du web. 
+          J'ai abordé des dommaines comme le marketing, l'informatique, le secrétariat, la production, l'accueil...tant au niveau des formations, stages, et parcours professionnels. 
         </p>
         </div>
         <div>
