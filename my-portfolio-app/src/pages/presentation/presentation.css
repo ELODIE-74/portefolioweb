@@ -1,0 +1,63 @@
+.ConteneurPresentationPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .TitlePro {
+    color: aquamarine;
+  }
+  .TitlePresentationPage,
+  .titleParcours,
+  .TitleExperiences,
+  .TitleStages,
+  .TitleFormations {
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    padding-right: 1.5rem; /* Ajout d'un padding à droite pour l'icône */
+    color: aquamarine;
+  }
+  
+  .TitlePresentationPage::after,
+  .titleParcours::after,
+  .TitleExperiences::after,
+  .TitleStages::after,
+  .TitleFormations::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+  }
+  
+  .TitlePresentationPage.open::after,
+  .titleParcours.open::after,
+  .TitleExperiences.open::after,
+  .TitleStages.open::after,
+  .TitleFormations.open::after {
+    transform: rotate(45deg);
+  }
+  
+  .TextePresentationPage,
+  .TitleEntete {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .TextePresentationPage.open,
+  .TitleEntete.open {
+    max-height: 1000px; /* Ajustez cette valeur selon le contenu */
+    transition: max-height 0.5s ease-in;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li::before {
+    content: ""; /* Supprime les puces */
+    margin-right: 0.5em;
+  }
