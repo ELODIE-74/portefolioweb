@@ -3,6 +3,7 @@ import './home.css';
 import ProjectSlider from '../../components/slider/slider';
 import ProjectList from '../../components/card/card'; // Importez le composant ProjectList
 import TechSlider from '../../components/slidericone/slidericone'; // Importez le composant TechSlider
+
 function Home() {
   const presentationSectionRef = useRef(null);
 
