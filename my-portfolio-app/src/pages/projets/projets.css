@@ -16,7 +16,11 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 80px;
   }
-  
+  .projects-container .project-card:hover{
+    background-color: #009688;
+ 
+  }
+ 
   .project-card {
     border: 2px dashed #009688;
     border-radius: 8px;
@@ -28,6 +32,7 @@ body {
   
   .project-card:hover {
     transform: translateY(-5px);
+   
   }
   
   .project-card-header {
@@ -35,7 +40,9 @@ body {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
-  
+  .project-card-content p:hover{
+    color:white;
+  }
   .project-card-content p {
     margin-bottom: 8px;
   }
