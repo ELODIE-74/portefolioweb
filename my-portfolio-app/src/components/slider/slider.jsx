@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import "./slider.css";
+import Booki from './Booki.png';
+import OhMyFood from './oh_my_food.png';
+import Events724 from './724_events.png';
 const ProjectSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -8,19 +11,19 @@ const ProjectSlider = () => {
       id: 1,
       title: 'Projet BOOKI',
       description: 'Logements en ligne HTML/CSS responsive',
-      imageUrl: '/Booki.png'
+      imageUrl: Booki
     },
     {
       id: 2,
       title: 'Projet Oh my Food',
       description: 'Menu de restauration Sass',
-      imageUrl: '/oh_my_food.png'
+      imageUrl: OhMyFood
     },
     {
       id: 3,
       title: 'Projet 724 Events',
       description: 'Débugguer un site web',
-      imageUrl: '/724_events.png'
+      imageUrl: Events724
     },
   ];
 
