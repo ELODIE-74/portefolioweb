@@ -85,3 +85,11 @@
 .app {
   text-align: center;
 }
+.app h1{
+  color : black;
+}
+.app h1:hover{
+  color: #009688;
+  text-shadow: 0 0 2px #009688;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
