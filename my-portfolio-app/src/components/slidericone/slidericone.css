@@ -18,7 +18,7 @@
     margin: 0 20px;
     opacity: 0.8;
     transition: opacity 0.3s ease;
-    color:white;
+    color:black;
   }
   
   .tech-item.active {
