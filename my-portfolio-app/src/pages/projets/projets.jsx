@@ -2,11 +2,11 @@ import React from 'react';
 import './projets.css';
 const ProjectCard = ({ title, context, technologies, difficulties, positives }) => {
   return (
-    <div className="project-card">
+    <div className="project-card-details">
       <div className="project-card-header">
         <h3>{title}</h3>
       </div>
-      <div className="project-card-content">
+      <div className="project-card-content-details">
         <p><strong>Contexte :</strong> {context}</p>
         <p><strong>Technologies :</strong> {technologies}</p>
         <p><strong>Difficultés :</strong> {difficulties}</p>
@@ -77,9 +77,9 @@ const ProjectsPage = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container-details">
       <h1>Mes Projets</h1>
-      <div className="projects-container">
+      <div className="projects-container-details">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
