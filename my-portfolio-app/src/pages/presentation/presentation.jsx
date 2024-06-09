@@ -36,7 +36,7 @@ function Presentation() {
       </h1>
       <div className={`TextePresentationPage ${openSections.experiences ? 'open' : ''}`}>
         <ul>
-          <li>Intégrateur Web Openclassrooms</li>
+          <li>Intégrateur Web</li>
           <li>Agent d'Accueil</li>
           <li>Opératrice polyvalente de production</li>
           <li>Secrétariat médical</li>
