@@ -1,5 +1,5 @@
 .project-card {
-  background-color: white;
+  background-color: black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 20px;
@@ -14,12 +14,12 @@
 .project-card h3 {
   font-weight: bold;
   text-decoration: underline;
-  color: #333;
+  color: #fff;
   margin-bottom: 12px;
 }
 
 .project-card p {
-  color: #333;
+  color: #fff;
   margin-bottom: 16px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .project-list .project-card {
-  background-color: white;
+  background-color: black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 20px;
@@ -61,12 +61,12 @@
 .project-list .project-card h3 {
   font-weight: bold;
   text-decoration: underline;
-  color: #333;
+  color: #fff;
   margin-bottom: 12px;
 }
 
 .project-list .project-card p {
-  color: #333;
+  color: #fff;
   margin-bottom: 16px;
 }
 
