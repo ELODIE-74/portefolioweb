@@ -13,14 +13,14 @@
     font-size: 280px;
     font-weight: 700;
     margin: 0;
-    color: #ff6060;
+    color: #009688;;
     margin-left: 15px;
   }
   /*texte en dessous de l'error 404*/
   .TexteError404 {
     font-size: 18px;
     margin: 0;
-    color: #ff6060;
+    color: #009688;
     margin-right: -25px;
     margin-left: 15px;
   }
@@ -34,7 +34,7 @@
   /*animation au survol du lien*/
   .LinkError404:hover {
     filter: brightness(0.95);
-    color: #ff6060;
+    color: #009688;
   }
   /*media queries mobile*/
   @media (max-width: 482px) {
