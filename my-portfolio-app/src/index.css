@@ -8,9 +8,13 @@ body {
   /*background: linear-gradient(to bottom, #d0e1f9, #b3c6e7, #8997c0, #6882a6, #4d6b8d);*/
   /*color: black;*/
   font-size : 18px;
-  background-image: linear-gradient(to right, #f0e6ff, #e6f0ff, #ffe6f0);
+  /*background-image: linear-gradient(to right, #f0e6ff, #e6f0ff, #ffe6f0);
   background-size: 400% 400%;
-  animation: pastelbg 20s ease infinite;
+  animation: pastelbg 20s ease infinite;*/
+  background-image: url('../public/backgroundimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 code {
