@@ -27,17 +27,22 @@ body {
   }
  
   .project-card-details{
-    border: 2px dashed #009688;
+    /*border: 2px dashed #009688;*/
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    background-color: #fff;
+    text-align : center;
    
   }
   
   .project-card-details:hover {
     transform: translateY(-5px);
    
+  }
+  .project-card-details h3{
+    text-align : center;
   }
   
   .project-card-header {

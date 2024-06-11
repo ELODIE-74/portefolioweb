@@ -14,7 +14,7 @@ const SkillsPage = () => {
 
   const skills = [
     {
-      title: 'Content Design and Technical Skills',
+      title: 'Compétences techniques',
       items: [
         'Node.js server',
         'NPM',
@@ -32,7 +32,7 @@ const SkillsPage = () => {
       ],
     },
     {
-      title: 'Project Management',
+      title: 'Gestion de projets',
       items: [
         'Trello',
         'Kanban',
@@ -43,7 +43,7 @@ const SkillsPage = () => {
       ],
     },
     {
-      title: 'SEO Optimization',
+      title: 'SEO référencement',
       items: [
         'LightHouse audit',
         'wave',

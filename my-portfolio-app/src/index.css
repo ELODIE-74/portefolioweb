@@ -15,13 +15,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@keyframes pastelbg {
+/*@keyframes pastelbg {
   0% {
     background-position: 0% 50%;
   }
@@ -31,4 +32,4 @@ code {
   100% {
     background-position: 0% 50%;
   }
-}
+}*/
