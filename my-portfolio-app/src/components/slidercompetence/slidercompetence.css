@@ -1,0 +1,64 @@
+/*conteneur du slide*/
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  /*pour les images*/
+  .slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  }
+  /*conteneur des flèches*/
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  /*flèche gauche*/
+  .arrowleft {
+    left: 10px;
+  }
+  /*flèche droite*/
+  .arrowright {
+    right: 10px;
+  }
+  /*conteneur des dots*/
+  .pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*mise en forme des chiffres*/
+  .pagination-text {
+    color: white;
+    margin-bottom: 25px;
+    font-size: x-large;
+  }
+  
+  /* Styles pour la version mobile */
+  @media (max-width: 768px) {
+    .slideshow {
+      height: 300px;
+    }
+  
+    .arrow {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .pagination {
+      display: none;
+    }
+  }
