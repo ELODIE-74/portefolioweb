@@ -18,8 +18,11 @@
       justify-content: center;
     }
     .loaderConteneur h1 {
-      margin-right: 80px;
-      text-shadow: white 1px;
+      position: absolute;
+      font-size: 2rem;
+      color: white;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 1;
     }
     .loaderConteneurChargement {
       display: flex;
@@ -29,8 +32,8 @@
       background-repeat: no-repeat;
       background-size: contain;
       filter: invert(100%);
-      width: 200px;
-      height: 40px;
+      width: 300px;
+      height: 300px;
     }
     .loaderConteneurChargement::before {
       content: "";
@@ -38,8 +41,8 @@
       border-radius: 50%;
       border: 7px solid transparent;
       border-top-color: green;
-      width: 280px;
-      height: 280px;
+      width: 300px;
+      height: 300px;
       animation: cercle 800ms linear infinite;
     }
     .loaderConteneurChargement::after {
