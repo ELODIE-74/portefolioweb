@@ -39,13 +39,11 @@ function Home() {
       <div className="home-container">
         <div className="text-container" ref={textContainerRef}>
           <p>
-            En reconversion professionnel dans les métiers du numérique, j'ai suivi pendant quelques temps une formation
-            d'intégrateur web auprès <strong>d'Openclassroms</strong>. Cette formation m'a permis de repousser
-            mes limites et d'aborder de nouveaux horizons tants sur le plan technique que relationnel.
+            En reconversion professionnel dans les métiers du numérique. 
+            Formation intégrateur web <strong>d'Openclassroms</strong>. 
             <br />
-            Grâce à une immersion avec des projets semi-professionels en condition réels avec des scénarios de cas concrets pour répondre
-            aux besoins de clients divers. Il y a eu de nombreux challenges pour traduire les besoins exprimées
-            en fonctionnalitées et améliorer les intéractions de l'interface utlisateur.
+            Immersion avec des projets semi-professionels en condition réels.
+            Savoir convertir les besoins des clients en fonctionnalités. 
             <br />
             Je vous invite à vous promener sur les différentes sections de mon portfolio pour découvrir qui je suis.
           </p>
