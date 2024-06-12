@@ -8,6 +8,7 @@ import Contact from "./pages/contact/contact.jsx";
 import Projets from "./pages/projets/projets.jsx";
 import Presentation from "./pages/presentation/presentation.jsx"
 import Competences from "./pages/competences/competences.jsx";
+import CVViewer from "./pages/cv/cv.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        <Route path="projets" element={<Projets/>}/>
        <Route path="presentation" element={<Presentation/>}/>
        <Route path="competences" element={<Competences />}/>
+       <Route path="cv" element={<CVViewer/>}/>
       </Routes>
       <Footer />
     </Router>
