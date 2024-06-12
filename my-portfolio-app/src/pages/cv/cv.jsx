@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./cv.css";
 import cvImage from "./cv.png";
-import TechSlider from '../../components/slidericone/slidericone';
+
 
 const CVViewer = () => {
   const [showCV, setShowCV] = useState(false);
@@ -47,9 +47,7 @@ const CVViewer = () => {
           <img src={cvImage} alt="CV" className="cv-image" />
         </div>
       )}
-       <div className="tech-slider-container">
-        <TechSlider />
-      </div>
+       
     </div>
     
   );
