@@ -6,16 +6,30 @@ const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Ici, vous pouvez ajouter la logique d'envoi du formulaire
-    console.log('Nom :', name);
-    console.log('Email :', email);
-    console.log('Message :', message);
-    // Réinitialiser les champs du formulaire
-    setName('');
-    setEmail('');
-    setMessage('');
+
+    try {
+      const response = await fetch('https://formsubmit.co/minerva.elodie@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, email, message })
+      });
+
+      if (response.ok) {
+        alert('Formulaire envoyé avec succès !');
+        setName('');
+        setEmail('');
+        setMessage('');
+      } else {
+        alert('Une erreur s\'est produite lors de l\'envoi du formulaire.');
+      }
+    } catch (error) {
+      alert('Une erreur s\'est produite lors de l\'envoi du formulaire.');
+      console.error('Erreur :', error);
+    }
   };
 
   return (
