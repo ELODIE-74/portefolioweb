@@ -36,10 +36,7 @@
   margin-left: 50px;
   margin-right: 50px;
   animation: neon 1.5s ease-in-out infinite alternate;
-  margin-left: 50px; /* Ajout d'une marge à gauche */
-  margin-right: 50px; /* Ajout d'une marge à droite */
 }
-
 
 .loaderConteneurChargement {
   display: flex;
@@ -58,10 +55,10 @@
   position: absolute;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: green;
+  border-top-color: #ff00de;
   width: 300px;
   height: 300px;
-  animation: cercle 800ms linear infinite;
+  animation: cercle 800ms linear infinite, neonCercle 1.5s ease-in-out infinite alternate;
 }
 
 .loaderConteneurChargement::after {
@@ -69,10 +66,10 @@
   position: absolute;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: green;
+  border-top-color: #ff00de;
   width: 250px;
   height: 250px;
-  animation: cercle 900ms linear reverse infinite;
+  animation: cercle 900ms linear reverse infinite, neonCercle 1.5s ease-in-out infinite alternate;
 }
 
 .container {
@@ -99,6 +96,7 @@
     display: none;
   }
 }
+
 @keyframes neon {
   from {
     text-shadow: 
@@ -116,6 +114,33 @@
       0 0 5px rgba(255,255,255,0.8),
       0 0 10px rgba(255,255,255,0.6),
       0 0 15px rgba(255,255,255,0.4),
+      0 0 20px #ff00de,
+      0 0 35px #ff00de,
+      0 0 40px #ff00de,
+      0 0 50px #ff00de,
+      0 0 75px #ff00de;
+  }
+}
+
+@keyframes neonCercle {
+  from {
+    border-color: #ff00de;
+    box-shadow: 
+      0 0 10px rgba(255,0,222,0.8),
+      0 0 20px rgba(255,0,222,0.6),
+      0 0 30px rgba(255,0,222,0.4),
+      0 0 40px #ff00de,
+      0 0 70px #ff00de,
+      0 0 80px #ff00de,
+      0 0 100px #ff00de,
+      0 0 150px #ff00de;
+  }
+  to {
+    border-color: #ff00de;
+    box-shadow:
+      0 0 5px rgba(255,0,222,0.8),
+      0 0 10px rgba(255,0,222,0.6),
+      0 0 15px rgba(255,0,222,0.4),
       0 0 20px #ff00de,
       0 0 35px #ff00de,
       0 0 40px #ff00de,
