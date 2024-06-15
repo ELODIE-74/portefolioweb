@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import './home.css';
-import ProjectSlider from '../../components/slider/slider';
 import ProjectList from '../../components/card/card';
 import TechSlider from '../../components/slidericone/slidericone';
 
@@ -33,23 +32,18 @@ function Home() {
 // un effet machine a écrire
   return (
     <div>
-      <div className="title-container">
-        <h1>PORTFOLIO</h1>
-      </div>
       <div className="home-container">
         <div className="text-container" ref={textContainerRef}>
           <p>
-            En reconversion professionnel dans les métiers du numérique. 
-            Formation intégrateur web <strong>d'Openclassroms</strong>. 
+            Bienvenue sur mon site. 
+            Intégrateur web. 
             <br />
-            Immersion avec des projets semi-professionels en condition réels.
-            Savoir convertir les besoins des clients en fonctionnalités. 
+            Projets semi-professionels.
+            Intérpréter les besoins des clients. 
             <br />
-            Je vous invite à vous promener sur les différentes sections de mon portfolio pour découvrir qui je suis.
+            Découvrer qui je suis.
+            Je ne suis pas une intelligence artificielle, je suis bien réel. 
           </p>
-        </div>
-        <div className="image-container">
-          <ProjectSlider />
         </div>
       </div>
       <div className="project-list-container">

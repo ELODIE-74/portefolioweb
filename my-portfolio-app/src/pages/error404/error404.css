@@ -13,20 +13,20 @@
     font-size: 280px;
     font-weight: 700;
     margin: 0;
-    color: #009688;;
+    color: #00FF00;;
     margin-left: 15px;
   }
   /*texte en dessous de l'error 404*/
   .TexteError404 {
     font-size: 18px;
     margin: 0;
-    color: #009688;
+    color: #00FF00;
     margin-right: -25px;
     margin-left: 15px;
   }
   /*mise en forme du lien de retour sur la page home(accueil)*/
   .LinkError404 {
-    color: black;
+    color: #00FF00;
     font-size: 18px;
     margin-top: 100px;
     margin-left: 35px;
@@ -34,7 +34,7 @@
   /*animation au survol du lien*/
   .LinkError404:hover {
     filter: brightness(0.95);
-    color: #009688;
+    color: #00FF00;
   }
   /*media queries mobile*/
   @media (max-width: 482px) {
