@@ -11,11 +11,11 @@ body {
   /*background-image: linear-gradient(to right, #f0e6ff, #e6f0ff, #ffe6f0);
   background-size: 400% 400%;
   animation: pastelbg 20s ease infinite;*/
-  background-image: url('../public/backgroundimage.jpg');
+  /*background-image: url('../public/backgroundimage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  
+  background-position: center;*/
+  background-color: black;
 }
 
 code {

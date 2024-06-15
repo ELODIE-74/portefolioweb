@@ -6,7 +6,7 @@
   margin-bottom: 20px;
 }
 .title-container h1{
-  color: black;
+  color: white;
 }
 .title-container h1:hover{
   color: #009688;
@@ -26,6 +26,7 @@
   padding: 20px;
   border-right: 2px dotted #ccc;
   text-align: center;
+  color:white;
   
 }
 
@@ -51,7 +52,7 @@ h1 {
 }
 
 h2 {
-  color: Black;
+  color: white;
   text-shadow: 2px 2px 2px white;
 font-weight: bold;
 }

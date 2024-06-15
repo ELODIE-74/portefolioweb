@@ -8,11 +8,13 @@
   
   .logo {
     margin-right: 20px;
+    color: white;
   }
   
   .logo img {
     width: 70px; /* Augmentation de la taille du logo */
     height: 70px; /* Augmentation de la taille du logo */
+  
   }
   
   .menu ul {
@@ -28,7 +30,7 @@
   }
   
   .menu li a {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
