@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import "./cv.css";
-import cvImage from "./cv.png";
+import cvImage from "./mon_cv.png";
 
 
-const CVViewer = () => {
+const CV = () => {
   const [showCV, setShowCV] = useState(false);
   const [isZoomed, setIsZoomed] = useState(false);
 
@@ -28,7 +28,7 @@ const CVViewer = () => {
   };
 
   return (
-    <div>
+    <div id="cv">
       {/* Affichage de l'icône de CV */}
       <div className="icon-container">
         <h1>Consulter mon cv en 1 clic!</h1>
@@ -53,4 +53,4 @@ const CVViewer = () => {
   );
 };
 
-export default CVViewer;
+export default CV;
