@@ -35,6 +35,9 @@ const Header = () => {
             <Link to="#" onClick={() => scrollToSection('projets')}>Projets</Link>
           </li>
           <li>
+            <Link to="#" onClick={() => scrollToSection('skills')}>Skills</Link>
+          </li>
+          <li>
             <Link to="#" onClick={() => scrollToSection('competences')}>Compétences</Link>
           </li>
           <li>
