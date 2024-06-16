@@ -19,8 +19,30 @@
     max-width: 90%;
     max-height: 90%;
   }
-  
   .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .icon-container h1 {
+    font-size: 1.2rem;
+  }
+  
+  .icon,
+  .download-icon {
+    font-size: 2 rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .download-icon {
+    font-size: 1.5rem;
+    color: white;
+  }
+  /*.icon-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,9 +58,9 @@
   .download-icon {
     font-size: 1.5rem;
     cursor: pointer;
-    color: #09ddc8;
+    color: #00FF00;
     margin-top: 1rem;
-  }
+  }*/
   .tech-slider-container{
     margin-top : 2rem;
   }

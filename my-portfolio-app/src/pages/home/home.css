@@ -8,7 +8,7 @@
   color: white;
 }
 .title-container h1:hover{
-  color: #009688;
+  color: #00FF00;
     text-shadow: 0 0 2px white;
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -46,7 +46,7 @@
 }
 
 h1 {
-  color: #00c9b6;
+  color: #00FF00;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -57,13 +57,13 @@ font-weight: bold;
 }
 
 h3 {
-  color: #00c9b6;
+  color: #00FF00;
   margin-bottom: 20px;
 }
 .project-list-container{
   margin-bottom : 35px;
 }
 .tech-slider-container{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
