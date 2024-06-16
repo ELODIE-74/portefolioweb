@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import './home.css';
 import ProjectList from '../../components/card/card';
 import TechSlider from '../../components/slidericone/slidericone';
+import ContactForm from '../../components/formcontact/formcontact';
 
 function Home() {
   //référence à l'élément text-container avec useRef(null).
@@ -33,7 +34,7 @@ function Home() {
   return (
     <div>
       <div className="home-container">
-        <div className="text-container" ref={textContainerRef}>
+        <div className="text-container" ref={textContainerRef} id="présentation">
           <p>
             Bienvenue sur mon site. 
             Intégrateur web. 
@@ -52,6 +53,9 @@ function Home() {
       <div className="tech-slider-container">
         <TechSlider />
       </div>
+      <div className="contact-design" id="contact">
+      <ContactForm />
+       </div>
     </div>
   );
 }

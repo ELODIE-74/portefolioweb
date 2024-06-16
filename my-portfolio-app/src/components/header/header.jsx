@@ -1,22 +1,20 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const presentationSectionRef = useRef(null);
-  const projetsSectionRef = useRef(null);
-  const competencesSectionRef = useRef(null);
-  const cvSectionRef = useRef(null);
-  const contactSectionRef = useRef(null);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
-  const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
-    toggleMenu();
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      toggleMenu();
+    }
   };
 
   return (
@@ -31,22 +29,19 @@ const Header = () => {
         </div>
         <ul className="menu-list">
           <li>
-            <Link to="/" onClick={toggleMenu}>Accueil</Link>
+            <Link to="#" onClick={() => scrollToSection('presentation')}>Présentation</Link>
           </li>
           <li>
-            <Link to="/presentation" onClick={() => scrollToSection(presentationSectionRef)}>Présentation</Link>
+            <Link to="#" onClick={() => scrollToSection('projets')}>Projets</Link>
           </li>
           <li>
-            <Link to="/projets" onClick={() => scrollToSection(projetsSectionRef)}>Projets</Link>
+            <Link to="#" onClick={() => scrollToSection('competences')}>Compétences</Link>
           </li>
           <li>
-            <Link to="/competences" onClick={() => scrollToSection(competencesSectionRef)}>Compétences</Link>
+            <Link to="#" onClick={() => scrollToSection('cv')}>CV</Link>
           </li>
           <li>
-            <Link to="/cv" onClick={() => scrollToSection(cvSectionRef)}>CV</Link>
-          </li>
-          <li>
-            <Link to="/contact" onClick={() => scrollToSection(contactSectionRef)}>Contact</Link>
+            <Link to="#" onClick={() => scrollToSection('contact')}>Contact</Link>
           </li>
         </ul>
       </nav>

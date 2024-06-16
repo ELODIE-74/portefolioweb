@@ -34,7 +34,7 @@ const ContactForm = () => {
 
   return (
     <section id="contact">
-      <h2>Contact</h2>
+      <h2 className='titlecontacth2'>Contact</h2>
       <p className='titlecontact'>Vous voulez me contacter ? Alors faites-moi signe !</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Nom</label>
@@ -62,9 +62,17 @@ const ContactForm = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
-        <input type="submit" value="Envoyer" />
+        <button type="submit" className="send-button">Envoyer</button>
       </form>
+      <section className='adresse_contact'>
+      <div className='textecontact'>
+       <h2>Autre <span>moyen</span> de<span> contact</span></h2>
+       <p><span>Lien linkedin : </span>@jklkjkl</p>
+       <p><span>Adresse mail : </span>minerva.elodie@gmail.com</p>
+      </div>
+      </section>
     </section>
+   
   );
 };
 
