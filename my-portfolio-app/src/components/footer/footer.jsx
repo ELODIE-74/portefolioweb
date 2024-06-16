@@ -5,6 +5,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <p>&#x24B8; 2024 Elodie. All rights reserved</p>
+        
       </div>
     </footer>
   );
