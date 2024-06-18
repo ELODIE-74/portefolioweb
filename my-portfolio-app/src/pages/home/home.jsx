@@ -47,7 +47,7 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="project-list-container">
+      <div className="project-list-container-slider">
         <ProjectList />
       </div>
       <div className="tech-slider-container">

@@ -16,45 +16,10 @@
     },
     {
     "id": 3,
-    "title": "Print JS",
-    "description": "Premiers pas sur le langage JavaScript",
-    "githubLink": "https://github.com/ELODIE-74/Print-it-JS.git",
-    "githubPageLink": null
-    },
-    {
-    "id": 4,
-    "title": "Qwenta",
-    "description": "Planifiez le développement du site de votre client",
-    "githubLink": "https://github.com/ELODIE-74/Projet7QwentaMenuMaker.git",
-    "githubPageLink": null
-    },
-    {
-    "id": 5,
-    "title": "Kasa",
-    "description": "Créez une application web de location immobilière avec React",
-    "githubLink": "https://github.com/ELODIE-74/KASA.git",
-    "githubPageLink": null
-    },
-    {
-    "id": 6,
-    "title": "Nina Carducci",
-    "description": "Optimisez le référencement d'un site de photographe",
-    "githubLink": "https://github.com/ELODIE-74/ninacarducci.git",
-    "githubPageLink": null
-    },
-    {
-    "id": 7,
     "title": "724 events",
     "description": "Débuggez le site d'une agence d'événementiel",
-    "githubLink": "https://github.com/ELODIE-74/Debuggez-une-application-React.JS.git",
-    "githubPageLink": null
-    },
-    {
-    "id": 8,
-    "title": "Portfolio Sophie Bluel",
-    "description": "Créez une page web dynamique avec JavaScript",
-    "githubLink": "https://github.com/ELODIE-74/Portfolio-architecte-sophie-bluel.git",
-    "githubPageLink": null
+    "githubLink": "https://github.com/ELODIE-74/Debuggez-une-application-React.JS.git"
+    
     }
     ]
     }
